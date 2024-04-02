@@ -1,0 +1,6 @@
+{
+	"name": "first plugin",
+	"description": "A plugin to log messages and respond to commands",
+	"author": "ihateapples",
+	"version": "1.0.0"
+}

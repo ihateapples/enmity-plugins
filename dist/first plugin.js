@@ -1,0 +1,1 @@
+var o=require("enmity-api/plugins");const n={name:"MessageLoggerPlugin",commands:[],onStart(){console.log("MessageLoggerPlugin started.")},onStop(){console.log("MessageLoggerPlugin stopped.")}};n.commands.push({name:"cmds",description:"Display available commands",execute:(e,s)=>g(s)});async function g(e){e.content===".cmds"&&e.channel.send("help cmds: hi")}o.registerPlugin(n);
